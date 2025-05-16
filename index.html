@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glam Gradient - Cílios e Unhas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Cabeçalho com logo e título -->
+    <header>
+        <img src="images/logo.jpg" alt="Logo Glam Gradient" class="logo">
+        <h1>Glam Gradient - Cílios e Unhas Vibrantes</h1>
+    </header>
+
+    <!-- Seção principal com chamada para ação -->
+    <main>
+        <section class="hero">
+            
+            <h2>Extensão de cílios e unhas com gradientes neon que vão te destacar!</h2>
+            <button id="agendarBtn" onclick="abrirAgendamento()">Agendar Agora</button>
+        </section>
+
+        <!-- Galeria de imagens (carrossel) -->
+        <section class="galeria">
+            <h2>Veja o Resultado</h2>
+            <div class="carrossel">
+                <img src="images/cilios.jpg" alt="Cílios com gradiente" class="carrossel-img active">
+                <img src="images/cilius1.jpg" alt="Unhas com gradiente" class="carrossel-img">
+                <img src="images/ulha1.jpg" alt="Unhas com gradiente" class="carrossel-img">
+                <img src="images/ulha2.jpg" alt="Unhas com gradiente" class="carrossel-img">
+                <button class="carrossel-btn prev" onclick="mudarImagem(-1)">&#10094;</button>
+                <button class="carrossel-btn next" onclick="mudarImagem(1)">&#10095;</button>
+
+
+
+            </div>
+        </section>
+
+        <!-- Detalhes do pacote -->
+        <section class="detalhes">
+            <h2>O que Inclui o Pacote?</h2>
+            <div class="servicos">
+                <div class="servico">
+                    <h3>Extensão de Cílios</h3>
+                    <p>Volume Russo com gradiente vibrante (roxo, rosa, azul ou vermelho) e strass. Inclui retoque após
+                        15 dias.</p>
+                </div>
+                <div class="servico">
+                    <h3>Unhas em Gel</h3>
+                    <p>Alongamento com gradiente neon, pedraria e efeito cromado. Inclui reparo de 2 unhas em 10 dias.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Glam Gradient. Todos os direitos reservados.</p>
+        <p>Contato: (11) 99999-9999 | Instagram: @GlamGradient</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
