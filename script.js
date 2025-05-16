@@ -22,6 +22,6 @@ setInterval(() => mudarImagem(1), 5000);
 function abrirAgendamento() {
     // Substitua pelo link real do WhatsApp ou sistema de agendamento
     const mensagem = "Olá! Quero agendar o pacote Glam Gradient de cílios e unhas!";
-    const numero = "5511999999999"; // Substitua pelo número real
+    const numero = "5511966576256"; // Substitua pelo número real
     window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`, '_blank');
 }
