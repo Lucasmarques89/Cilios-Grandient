@@ -9,3 +9,7 @@ Esse projeto foi criado para servi como mostruario de freela
 - CSS
 
 - JAVASCRIPT
+
+## Projeto Pronto
+
+https://glam-projeto.netlify.app/
